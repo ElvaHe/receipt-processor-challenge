@@ -76,19 +76,22 @@ curl -X POST http://localhost:8080/receipts/process \
   }'
 ```
 
-### Example response
-
+Example response:
+```json
 { "id": "your-generated-receipt-id" }
+```
 
 ### Get Points for a Receipt
 
 Replace <id> with the actual ID returned above:
-
+```bash
 curl http://localhost:8080/receipts/<id>/points
+```
 
-### Example response
-
+Example response:
+```json
 { "points": 33 }
+```
 
 ---
 
