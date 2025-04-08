@@ -74,6 +74,7 @@ curl -X POST http://localhost:8080/receipts/process \
     ],
     "total": "35.35"
   }'
+```
 
 ### Example response
 
