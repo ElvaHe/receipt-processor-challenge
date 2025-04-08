@@ -90,7 +90,7 @@ curl http://localhost:8080/receipts/<id>/points
 
 Example response:
 ```json
-{ "points": 33 }
+{ "points": 28 }
 ```
 
 ---
